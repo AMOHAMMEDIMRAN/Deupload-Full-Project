@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1410px;
+    margin: 0px auto;
+}
+/*HEADER START*/
+.hearder-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+.hearder-wrapper nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.hearder-wrapper nav .s-btn{
+    padding: 5px 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #0B0D0E;
+}
+.hearder-wrapper nav .s-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+.hearder-wrapper nav .c-btn{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background: #651FFF;
+    color: #ffffff;
+}
+.hearder-wrapper nav .c-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*HEADER END*/
+
+/*BANNER WRAPPER START*/
+
+.banner{
+    padding: 105px 0px;
+    background: #EBE5FA;
+}
+.banner-wrapper>div>div>div>h1>span:nth-child(3) span{
+    color: #651FFF;
+    line-height: 75px;
+}
+.banner-wrapper>div>div>div>h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.banner-wrapper>div:nth-child(2){
+    padding: 30px 0px;
+    color: #5C5F6E;
+    font-size: 20px;
+    font-weight: 500;
+}
+.s-btn{
+    padding: 10px 40px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #0B0D0E;
+}
+.s-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+.c-btn{
+    padding: 10px 35px;
+    border-radius: 10px;
+    background: #651FFF;
+    color: #ffffff;
+}
+.c-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+/*BANNER WRAPPER END*/
+
+/*LIGHTING START*/
+
+.lighting{
+    background-color: #ffffff;
+}
+.lighting .container{
+    max-width: 1125px;
+    margin: 0px auto;
+}
+.lighting-wrapper .lighting-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lighting-wrapper div:nth-child(3)>div h3{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 28px;
+}
+.lighting-wrapper div:nth-child(3)>div p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.lighting-wrapper div:nth-child(3)>div a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 992px){
+    .lighting-img img{
+        width: 100%;
+     }
+}
+@media only screen and (max-width: 768px){
+    .lighting-img img{
+        width: 100%;
+     }
+}
+/*LIGHTING END*/
