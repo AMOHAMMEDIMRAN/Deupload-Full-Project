@@ -101,25 +101,10 @@
     align-items: center;
     width: 100%;
 }
-
-.lighting-wrapper div:nth-child(3)>div h3{
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 28px;
+.lighting-wrapper>div:nth-child(2)>div>div h2{
+    font-size: 40px;
+    font-weight: 600;
 }
-.lighting-wrapper div:nth-child(3)>div p{
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 400;
-
-}
-.lighting-wrapper div:nth-child(3)>div a{
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
 @media only screen and (max-width: 992px){
     .lighting-img img{
         width: 100%;
