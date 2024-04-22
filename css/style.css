@@ -102,8 +102,33 @@
     width: 100%;
 }
 .lighting-wrapper>div:nth-child(2)>div>div h2{
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0D0E;
+}
+.lighting-wrapper>div:nth-child(2)>div>div p{
+    color: #838696;
+    font-size: 18px;
+    font-weight: 500;
+}
+.lighting-wrapper>div:nth-child(3)>div>div{
+    background: #651FFF;
+    border-radius: 15px;
+}
+.lighting-wrapper>div:nth-child(3)>div>div>div h3{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.lighting-wrapper>div:nth-child(3)>div>div>div p{
+    color: #ECECFE;
+    font-size: 15px;
+    font-weight: 500;
+}
+.lighting-wrapper>div:nth-child(3)>div>div>div a{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
 }
 @media only screen and (max-width: 992px){
     .lighting-img img{
