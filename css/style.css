@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 .container{
-    max-width: 1410px;
+    max-width: 1430px;
     margin: 0px auto;
 }
 /*HEADER START*/
@@ -141,3 +141,43 @@
      }
 }
 /*LIGHTING END*/
+
+/*TEAM START*/
+.team .container{
+    max-width: 1125px;
+    margin: 0px auto;
+}
+.team-wrapper{
+    padding: 100px 0px;
+}
+.team-wrapper div:nth-child(1) h2{
+    font-size: 56px;
+    font-weight: 700;
+}
+.team-wrapper div:nth-child(1) h2>span{
+    color: #0B0D0E;
+}
+.team-wrapper div:nth-child(1) h2>span:nth-child(2)>span{
+    color: #651FFF;
+}
+.team-wrapper div:nth-child(1) h2>span:nth-child(3){
+    color: #651FFF;
+}
+.team-wrapper div:nth-child(1) h2>span:nth-child(3)>span{
+    color: #0B0D0E;
+}
+.team-card>div>div:nth-child(1){
+    background: #FFF7ED;
+    border-radius: 20px;
+}
+.team-card>div>div:nth-child(2)>div{
+    background: #E0F7FA;
+    border-radius: 20px;
+}
+.team-card>div>div:nth-child(1)>div img{
+    width: 100%;
+}
+.team-card>div>div:nth-child(2)>div img{
+    width: 100%;
+}
+/*TEAM END*/
