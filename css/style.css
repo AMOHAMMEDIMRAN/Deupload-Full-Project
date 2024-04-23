@@ -151,7 +151,7 @@
     padding: 100px 0px;
 }
 .team-wrapper div:nth-child(1) h2{
-    font-size: 56px;
+    font-size: 54px;
     font-weight: 700;
 }
 .team-wrapper div:nth-child(1) h2>span{
@@ -177,7 +177,74 @@
 .team-card>div>div:nth-child(1)>div img{
     width: 100%;
 }
+.team-card>div>div:nth-child(1)>div h3{
+    color: #651FFF;
+    font-size: 42px;
+    font-weight: 700;
+}
+.team-card>div>div:nth-child(1)>div p{
+    color: #838696;
+    font-size: 18px;
+    font-weight: 500;
+}
 .team-card>div>div:nth-child(2)>div img{
     width: 100%;
 }
+.team-card>div>div:nth-child(2)>div h3{
+    color: #651FFF;
+    font-size: 42px;
+    font-weight: 700;
+}
+.team-card>div>div:nth-child(2)>div p{
+    color: #838696;
+    font-size: 18px;
+    font-weight: 500;
+}
+.large-card>div>div>div{
+    background: #ECECFE;
+    border-radius: 20px;
+}
+.large-card>div>div>div>div>div h3{
+    font-size: 42px;
+    font-weight: 700;
+}
+.large-card>div>div>div>div>div h3>span>span{
+    color: #651FFF;
+}
+.large-card>div>div>div>div>div p{
+    color: #838696;
+    font-size: 18px;
+    font-weight: 500;
+}
+#sn-btn{
+    background: #651FFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#sn-btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#mf-btn{
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #0E0F10;
+}
+#mf-btn a{
+    text-decoration: none;
+    color: #0E0F10;
+}
+@media only screen and (max-width: 768px){
+    .team-card>div>div:nth-child(1)>div h3{
+        font-size: 30px;
+    }
+    .team-card>div>div:nth-child(2)>div h3{
+        font-size: 30px;
+    }
+    #grp-img img{
+        width: 100%;
+        }
+}
+
 /*TEAM END*/
